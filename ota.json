@@ -1,1 +1,13 @@
-
+{
+  "response": [
+    {
+      "datetime": 1720202312,
+      "filename": "Project_Infinity-X-3.12-X6837-05.07.2026-GAPPS-UNOFFICIAL.zip",
+      "id": "put_the_md5_hash_here",
+      "romtype": "UNOFFICIAL",
+      "size": 1500000000,
+      "url": "https://github.com/YourUsername/ota/releases/download/v3.12/Project_Infinity-X-3.12-X6837-05.07.2026-GAPPS-UNOFFICIAL.zip",
+      "version": "3.12"
+    }
+  ]
+}
