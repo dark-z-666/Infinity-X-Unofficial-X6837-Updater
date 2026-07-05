@@ -1,135 +1,195 @@
+<div align="center">
+
 # Infinity X Updater
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/dark-z-666/Infinity-X-Unofficial-X6837-Updater/main/assets/banner.png" alt="Infinity X Banner" width="100%">
-</p>
+<img src="https://raw.githubusercontent.com/ProjectInfinity-X/.github/main/profile/Infinity.png" width="100%" alt="Infinity X">
 
-<p align="center">
-  <strong>OTA Update Repository for Infinity X</strong><br>
-  Unofficial • Infinix Hot 40 Pro (X6837)
-</p>
+<br>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Android-16-34A853?style=for-the-badge&logo=android&logoColor=white">
-  <img src="https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Maintainer-Night%20Stalker-5865F2?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/dark-z-666/Infinity-X-Unofficial-X6837-Updater?style=for-the-badge">
-</p>
+### OTA Update Repository for Infinity X
 
----
+**Unofficial Build • Infinix Hot 40 Pro (X6837)**
 
-# About
+<br>
 
-**Infinity X Updater** is the official OTA update repository used by the **unofficial Infinity X build** for the **Infinix Hot 40 Pro (X6837)**.
+<img src="https://img.shields.io/github/license/dark-z-666/Infinity-X-Unofficial-X6837-Updater?style=for-the-badge&color=6C63FF">
+<img src="https://img.shields.io/github/last-commit/dark-z-666/Infinity-X-Unofficial-X6837-Updater?style=for-the-badge&color=00C853">
+<img src="https://img.shields.io/github/repo-size/dark-z-666/Infinity-X-Unofficial-X6837-Updater?style=for-the-badge&color=0099FF">
+<img src="https://img.shields.io/github/stars/dark-z-666/Infinity-X-Unofficial-X6837-Updater?style=for-the-badge&color=FFD600">
 
-This repository hosts OTA metadata used by the built-in updater, allowing users to receive new releases seamlessly without manually flashing every update.
+<br>
 
-Designed with simplicity, reliability, and long-term maintenance in mind.
+<img src="https://img.shields.io/badge/Android-16-3DDC84?style=flat-square&logo=android&logoColor=white">
+<img src="https://img.shields.io/badge/Infinity%20X-Unofficial-6C63FF?style=flat-square">
+<img src="https://img.shields.io/badge/Device-X6837-blue?style=flat-square">
+<img src="https://img.shields.io/badge/Maintainer-Night%20Stalker-orange?style=flat-square">
+<img src="https://img.shields.io/badge/OTA-Supported-success?style=flat-square">
 
----
-
-# Features
-
-- OTA update support
-- Incremental update delivery
-- Automatic update detection
-- Lightweight JSON-based configuration
-- Optimized for Infinity X
-- Clean repository structure
-- Easy maintenance
+</div>
 
 ---
 
-# Device Information
+# ✨ Overview
 
-| Property | Value |
-|----------|-------|
+Welcome to the **Infinity X Updater** repository.
+
+This repository hosts the **OTA update infrastructure** used by the unofficial **Infinity X** builds for the **Infinix Hot 40 Pro (X6837)**.
+
+It provides update metadata consumed by the built-in Infinity X Updater, allowing users to receive new releases securely and seamlessly without manually flashing every build.
+
+Designed with reliability, simplicity and long-term maintainability in mind.
+
+---
+
+# 🚀 Features
+
+✔ OTA Update Support
+
+✔ Automatic Update Detection
+
+✔ Secure JSON Update Metadata
+
+✔ Lightweight Repository Structure
+
+✔ Incremental Update Ready
+
+✔ Community Maintained
+
+✔ Optimized for Infinity X
+
+✔ Android 16
+
+---
+
+# 📱 Device Information
+
+| Item | Information |
+|:-----|:------------|
 | Device | Infinix Hot 40 Pro |
 | Codename | X6837 |
 | Android Version | 16 |
-| Update Method | OTA |
+| ROM | Infinity X |
 | Build Type | Unofficial |
+| Update Method | OTA |
+| Maintainer | Night Stalker |
 
 ---
 
-# Repository Structure
+# 📂 Repository Layout
 
-```
+```text
 .
-├── releases/
 ├── updater.json
+├── releases/
+├── changelogs/
+├── assets/
 └── README.md
 ```
 
 ---
 
-# OTA Workflow
+# 🔄 OTA Flow
 
-```
-Infinity X Device
-        │
-        ▼
-Checks updater.json
-        │
-        ▼
-New Build Available?
-        │
-   ┌────┴────┐
-   │         │
-  Yes        No
-   │         │
-   ▼         ▼
-Download    Stay Updated
-   │
-   ▼
-Install OTA
+```mermaid
+flowchart LR
+
+A[Infinity X Device]
+-->B[Check updater.json]
+
+B-->C{New Build?}
+
+C--Yes-->D[Download OTA]
+
+D-->E[Verify Package]
+
+E-->F[Install Update]
+
+C--No-->G[Device Up To Date]
 ```
 
 ---
 
-# Maintainer
+# 📦 Update Process
 
-### Night Stalker
-
-**Unofficial Infinity X Maintainer**
-
-Responsible for:
-
-- Device bring-up
-- OTA releases
-- Bug fixes
-- Performance tuning
-- Build maintenance
-
----
-
-# Disclaimer
-
-This repository is maintained independently and is **not affiliated with or endorsed by the Infinity X Project**.
-
-All builds distributed through this updater are **unofficial community-maintained releases** for the **Infinix Hot 40 Pro (X6837)**.
-
----
-
-# Contributing
-
-Contributions are welcome.
-
-If you discover an issue or have suggestions for improving the OTA infrastructure, feel free to open an Issue or submit a Pull Request.
+```text
+Build Release
+      │
+      ▼
+Generate OTA Metadata
+      │
+      ▼
+Upload Release Files
+      │
+      ▼
+Update updater.json
+      │
+      ▼
+Push to GitHub
+      │
+      ▼
+Infinity X Devices Receive OTA
+```
 
 ---
 
-# License
+# 🌌 About Infinity X
 
-This repository is released under the MIT License unless otherwise specified.
+Infinity X is a modern Android aftermarket firmware focused on delivering
+
+- Performance
+- Stability
+- Smooth UI
+- Clean Design
+- Pixel Experience
+- Reliable OTA Updates
+
+while preserving a lightweight and refined user experience.
 
 ---
 
-<p align="center">
-<b>Infinity X</b><br>
-Minimal • Stable • Refined
-</p>
+# 👤 Maintainer
 
-<p align="center">
-Unofficially maintained with ❤️ by <b>Night Stalker</b>
-</p>
+<div align="center">
+
+## Night Stalker
+
+### Unofficial Infinity X Maintainer
+
+Android Device Tree • Kernel • Vendor • OTA Infrastructure
+
+</div>
+
+---
+
+# ⚠ Disclaimer
+
+This repository is maintained independently by the community.
+
+It is **not affiliated with, endorsed by, or officially maintained by the Infinity X Project.**
+
+All OTA packages distributed through this repository are intended **only** for the unofficial Infinity X builds targeting the **Infinix Hot 40 Pro (X6837).**
+
+---
+
+# ❤️ Credits
+
+- Infinity X Team
+- Android Open Source Project
+- All Contributors
+- Open Source Community
+
+---
+
+<div align="center">
+
+## ⭐ Enjoying Infinity X?
+
+Give this repository a ⭐ if you appreciate the project.
+
+---
+
+### Made with ❤️ for the Android Community
+
+### Unofficially maintained by **Night Stalker**
+
+</div>
