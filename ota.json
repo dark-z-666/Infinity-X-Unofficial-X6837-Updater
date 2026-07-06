@@ -1,13 +1,12 @@
 {
     "response": [
         {
-            "filename": "Project_Infinity-X-3.12-X6837-05.07.2026-GAPPS-UNOFFICIAL.zip",
-            "download": "https://github.com/dark-z-666/Infinity-X-Unofficial-X6837-Updater/releases/download/v3.12/Project_Infinity-X-3.12-X6837-05.07.2026-GAPPS-UNOFFICIAL.zip",
-            "timestamp": 1783277480,
-            "md5": "f1acdd57caacaf429914761f63564d34",
-            "size": 2010418547,
-            "version": "3.12",
-            "changelog": "• July 2026 security patch\n• Fixed mobile data not working\n• MTK animation lag fix\n• Signed with private keys\n• OTA update system added"
+            "filename": "Project_Infinity-X-3.12-X6837-06.07.2026-GAPPS-UNOFFICIAL.zip",
+            "download": "https://github.com/dark-z-666/Infinity-X-Unofficial-X6837-Updater/releases/download/v3.12/Project_Infinity-X-3.12-X6837-06.07.2026-GAPPS-UNOFFICIAL.zip",
+            "timestamp": 1783326457,
+            "md5": "58255c6c7b45c6837ccae0862a71c57d",
+            "size": 2010424373,
+            "version": "3.12.1"
         }
     ]
 }
