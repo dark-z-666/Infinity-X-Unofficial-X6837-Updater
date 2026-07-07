@@ -1,5 +1,4 @@
 • Fixed OTA installation failure (SELinux denial on tee partition)
-• Fixed multi‑touch edge rejection – no more dead zones in games
 • Fixed battery design capacity (now shows 5000 mAh, not 500)
 • Fixed camera info in About Phone (now displays correct lens details)
 • Fixed mobile data not working out of the box (APN auto‑load)
